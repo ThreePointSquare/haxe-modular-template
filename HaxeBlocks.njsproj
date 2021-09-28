@@ -38,6 +38,7 @@
     <Compile Include="src\index.js">
       <SubType>Code</SubType>
     </Compile>
+    <Content Include="bin\RunBuilds.bat" />
     <Content Include="bin\RunLibConversions.bat" />
     <Content Include="bin\RunLiveReloader.bat" />
     <Content Include="src\lib.js" />
