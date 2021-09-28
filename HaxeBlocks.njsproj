@@ -15,7 +15,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>656c69a1-e263-4af6-bb5c-4eb3feb3c69b</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>server.js</StartupFile>
+    <StartupFile>dyn-server.js</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -38,26 +38,31 @@
     <Compile Include="src\index.js">
       <SubType>Code</SubType>
     </Compile>
-    <Content Include="readme\advanced.md" />
-    <Content Include="readme\hmr-usage.md" />
-    <Content Include="readme\how.md" />
-    <Compile Include="src\libs.js">
+    <Content Include="bin\js\index.js" />
+    <Content Include="bin\RunLiveReloader.bat">
       <SubType>Code</SubType>
-    </Compile>
-    <Content Include="readme\libraries.md" />
-    <Content Include="readme\library-usage.md" />
-    <Content Include="readme\npm-setup.md" />
-    <Content Include="readme\production-release.md" />
-    <Content Include="server.js" />
+    </Content>
+    <Content Include="doc\advanced.md" />
+    <Content Include="doc\hmr-usage.md" />
+    <Content Include="doc\how.md" />
+    <Content Include="doc\libraries.md" />
+    <Content Include="doc\library-usage.md" />
+    <Content Include="doc\npm-setup.md" />
+    <Content Include="doc\production-release.md" />
+    <Content Include="dyn-server.js" />
     <Content Include="package.json" />
-    <Content Include="readme\start.md" />
-    <Content Include="readme\stats.png" />
+    <Content Include="doc\start.md" />
+    <Content Include="doc\stats.png" />
+    <Content Include="src\Example.hx" />
+    <Content Include="build.hxml">
+      <SubType>Code</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="bin\" />
     <Folder Include="bin\js\" />
     <Folder Include="src\" />
-    <Folder Include="readme\" />
+    <Folder Include="doc\" />
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="src\Main.hx">

@@ -5,12 +5,21 @@ VisualStudioVersion = 16.0.31702.278
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "HaxeBlocks", "HaxeBlocks.njsproj", "{656C69A1-E263-4AF6-BB5C-4EB3FEB3C69B}"
 EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "haxe-modular-cli-template", "..\haxe-modular-cli-template\haxe-modular-cli-template.njsproj", "{ABFD0C56-ECAD-45C4-897F-3151354760C1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{656C69A1-E263-4AF6-BB5C-4EB3FEB3C69B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{656C69A1-E263-4AF6-BB5C-4EB3FEB3C69B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{656C69A1-E263-4AF6-BB5C-4EB3FEB3C69B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABFD0C56-ECAD-45C4-897F-3151354760C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABFD0C56-ECAD-45C4-897F-3151354760C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABFD0C56-ECAD-45C4-897F-3151354760C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABFD0C56-ECAD-45C4-897F-3151354760C1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

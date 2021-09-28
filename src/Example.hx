@@ -3,4 +3,3 @@ class Main {
     trace("Haxe is great!");
   }
 }
-
