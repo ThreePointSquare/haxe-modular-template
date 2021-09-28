@@ -2,3 +2,23 @@
 -main Main
 -js bin/js/main.js
 -lib 
+-D react_hot
+-lib modular
+-lib hxnodejs
+-D nodejs 
+
+
+
+-lib uglifyjs
+
+
+#Inside .hxml files use a hash (i.e. #) to comment out the rest of the line.
+#alling build configurations inside HXML:
+#It is possible to create a configuration that looks like this:
+
+#UNCMMENT BELOW
+#build-server.hxml
+#--next
+#build-website.hxml
+#--next
+#build-game.hxml

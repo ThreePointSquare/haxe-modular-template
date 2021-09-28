@@ -64,6 +64,8 @@ The real URL of the bundles is then: `Require.jsPath + bundleName + Require.jsEx
 
 ### Specifying base URL
 
+
+
 ```haxe
 Require.jsPath = './'; // default
 Require.jsPath = '/scripts/'; // subfolder

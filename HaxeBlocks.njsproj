@@ -38,10 +38,9 @@
     <Compile Include="src\index.js">
       <SubType>Code</SubType>
     </Compile>
-    <Content Include="bin\js\index.js" />
-    <Content Include="bin\RunLiveReloader.bat">
-      <SubType>Code</SubType>
-    </Content>
+    <Content Include="bin\RunLibConversions.bat" />
+    <Content Include="bin\RunLiveReloader.bat" />
+    <Content Include="src\lib.js" />
     <Content Include="doc\advanced.md" />
     <Content Include="doc\hmr-usage.md" />
     <Content Include="doc\how.md" />
